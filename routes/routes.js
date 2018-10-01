@@ -2,8 +2,8 @@ var Upstox = require("upstox");
 var ApiKey = "JVt25v44tj92qVGyh8GhG9K6jTYoqn3f5z0JhglH";
 var ApiSecret = "vrzjb283rb";
 var RedirectUrl = "http://localhost:8080";
-var Code = "255ba1a189dfe1b18cd4b3037e6063642949be0c";
-var AccessToken = "cc2cedb83382aabdb2746586d19f445b28f86550";
+var Code = "";
+var AccessToken = "";
 var upstox = new Upstox(ApiKey);
 
 var appRouter = function (app) {
